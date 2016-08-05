@@ -93,13 +93,7 @@ namespace FLAnimatedImageXamarin {
         // @property (readonly, nonatomic, strong) NSData * data;
         [Export("data", ArgumentSemantic.Strong)]
         NSData Data { get; }
-    }
 
-    // @interface Logging (FLAnimatedImage)
-    [Category]
-    [BaseType(typeof(FLAnimatedImage))]
-    interface FLAnimatedImage_Logging {
-        // +(void)setLogBlock:(void (^)(NSString *, FLLogLevel))logBlock logLevel:(FLLogLevel)logLevel;
         [Static]
         [Export("setLogBlock:logLevel:")]
         void SetLogBlock(Action<NSString, FLLogLevel> logBlock, FLLogLevel logLevel);
