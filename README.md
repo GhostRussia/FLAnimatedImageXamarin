@@ -39,7 +39,7 @@ imageView.Frame = new CGRect(0.0, 0.0, 100.0, 100.0);
 View.Add(imageView);
 ```
 
-It is capable of fine-grained logging. A block can be set on FLAnimatedImage that's invoked when logging occurs with various log levels via the +setLogBlock:logLevel: method. For example:
+It is capable of fine-grained logging. A block can be set on FLAnimatedImage that's invoked when logging occurs with various log levels via the FLAnimatedImage.SetLogBlock(Action<NSString, FLLogLevel>, FLLogLevel) method. For example:
 
 ```csharp
 // Set up FLAnimatedImage logging.
