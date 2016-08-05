@@ -23,6 +23,9 @@ Build:
 make all
 ```
 
+or you can download release:
+https://github.com/GhostRussia/FLAnimatedImageXamarin/releases/latest
+
 ## Installation & Usage
 
 FLAnimatedImage is a well encapsulated drop-in component. Simply replace your `UIImageView` instances with instances of `FLAnimatedImageView` to get animated GIF support. There is no central cache or state to manage.
